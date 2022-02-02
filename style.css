@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+/* Image 1 */
+.one {
+    background-color: yellow;
+    text-align: center;
+}
+
+.one h1 {
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+}
+
+.one p {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.bgimg {
+    /* border: 2px solid blue; */
+    background-image: url(./imgs/burger1148.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 510px;
+}
+
+.one button {
+    margin-top: 440px;
+    background-color: yellow;
+    padding: 18px;
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+
+/*Image two */
+.two {
+    display: flex;
+    flex-direction: row;
+    /* border: blueviolet 4px solid; */
+}
+
+.about {
+    line-height: 1.5;
+    /* border: solid 2px red; */
+    padding: 150px 40px;
+}
+
+.about h1 {
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+}
+
+.about span {
+    color: yellow;
+}
+
+.about p {
+    text-align: left;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+
+/* Image 3 */
+.three {
+    display: flex;
+    flex-direction: row;
+    line-height: 1.5;
+    padding: 60px 70px;
+    /* border: turquoise solid 3px; */
+}
+
+.left {
+    padding: 60px 30px;
+    width: 50%;
+    /* border: teal 2px solid; */
+}
+
+.left h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 40px;
+}
+
+.left span {
+    color: yellow;
+}
+
+.left p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.right {
+    background-color: yellow;
+    border-radius: 30px;
+    padding: 20px 30px;
+    width: 50%;
+    /* border: red 2px solid; */
+}
+
+.right h3 {
+    font-family: 'Comfortaa', cursive;
+    vertical-align: text-top;
+    padding: 10px 0px;
+}
+
+.right span {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.right p {
+    text-align: left;
+    padding: 10px 30px;
+}
+
+/* Image 4 */
+.four {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 50px;
+    background-color: yellow;
+    padding: 50px 40px;
+    /* border: blue 3px solid; */
+}
+
+.alpha, .beta, .gamma, .omega {
+    /* border: chartreuse 2px solid; */
+    height: 500px;
+}
+
+
+.alpha h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 60px;
+    padding: 80px 10px;
+    text-align: center;
+}
+
+.alpha button {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: 10px 120px;
+    padding: 10px;
+    border: none;
+}
+
+.beta {
+    background-image: url(./imgs/gourmetBurger.jpg);
+}
+
+.gamma {
+    background-image: url(./imgs/chickenWings.jpg);
+}
+
+.omega {
+    background-image: url(./imgs/ThirstQuencher.webp);
+}
+
+.beta, .gamma, .omega {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.description {
+    /* border: 5px solid aqua; */
+    background-color: white;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin-top: 400px;
+}
+
+
+/* Image 5 */
+.five h1 {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.five span {
+    color: yellow;
+}
+
+.customers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.mara, .brock, .steffi {
+    padding: 20px;
+}
+
+.mara h3, .brock h3, .steffi h3 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+}
+
+.mara p, .brock p, .steffi p {
+    text-align: center;
+    padding: 10px;
+}
+
+.mara h3 {
+    font-family: 'Comfortaa', cursive;
+}
+
+/* Six */
+.six {
+    background-color: yellow;
+    text-align: center;
+    padding: 80px;
+}
+
+.six h1 {
+    padding: 20px;
+}
+
+.location, .email, .contact {
+    padding: 30px;
+    line-height: 1.5;
+}
